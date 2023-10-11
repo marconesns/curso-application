@@ -17,10 +17,3 @@ spec:
       containers:
       - image: nginx:1.25.2
         name: nginx
-	resources:
-          requests:
-            cpu: "250m"
-            memory: "256Mi"
-          limits:
-            cpu: "1"
-            memory: "256Mi"
